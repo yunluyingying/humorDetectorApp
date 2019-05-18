@@ -13,9 +13,22 @@ The mian reason that I am using this dataset is it offers specific votes, which 
 
 To create the word vector, the Glove pretrained word vector was used, then projected as the embedding layer of LSTM model. 
 
+Model architecture:
+
+![alt text](./outputData/LSTM/modelArchitecture.png)
+
+
+
 ### Result 
 
+Run for 5 epoch. 
+
 The MSE was used as the evaluation metrics. 
+Test MSE: 3.7503
+Validation MSE: 3.7761
+Test MSE: 1.924
+
+![alt text](./outputData/LSTM/loss.png)
 
 ### Deploymennt 
 
